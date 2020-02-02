@@ -156,7 +156,7 @@ spec:
             configMapKeyRef:
               name: cluster-config
               key: cluster_location
-        image: gcr.io/stackdriver-kubernetes-1337/stackdriver-logging-agent:lingshi-metadata
+        image: gcr.io/stackdriver-kubernetes-1337/stackdriver-logging-agent:lingshi-metadata-2-4-2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
